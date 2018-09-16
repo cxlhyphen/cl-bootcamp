@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 36px;
+}
+
+p {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+#fixed, #relative, #absolute {
+    font-size: 24px;
+    padding: 40px;
+    text-align: center;
+}
+
+#fixed {
+    position: fixed;
+    background-color: #eee;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#relative {
+    position: relative;
+    background-color: #eee;
+    height: 200px;
+}
+
+#absolute {
+    background-color: #999;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+}
